@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <!-- SCREEN -->
+        <div class="input-group mb-1">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Formula:</span>
+          </div>
+          <input id="formula" type="text" class="form-control" placeholder="Formula" aria-label="Inputted Formula" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group input-group-lg mb-3">
+          <input id="result" type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" style="display: inline-block; text-align: right;" disabled>
+        </div>
+
+        <!-- BUTTONS -->
+        <div class="container">
+          <div class="row mb-2">
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-info btn-lg numCal" style="width: 100%;">7</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-info btn-lg numCal" style="width: 100%;">8</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-info btn-lg numCal" style="width: 100%;">9</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-success btn-lg opr" style="width: 100%;">+</button>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-info btn-lg numCal" style="width: 100%;">4</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-info btn-lg numCal" style="width: 100%;">5</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-info btn-lg numCal" style="width: 100%;">6</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-success btn-lg opr" style="width: 100%;">-</button>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-info btn-lg numCal" style="width: 100%;">1</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-info btn-lg numCal" style="width: 100%;">2</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-info btn-lg numCal" style="width: 100%;">3</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-success btn-lg opr" style="width: 100%;">*</button>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <!-- <div class="col-sm-3">
+                <button type="button" class="btn btn-danger btn-lg erase" style="width: 100%;">C</button>
+            </div> -->
+            <div class="col-sm-4">
+              <button type="button" class="btn btn btn-info btn-lg numCal" style="width: 100%;">0</button>
+            </div>
+            <div class="col-sm-4">
+              <button type="button" class="btn btn btn-success btn-lg equal" style="width: 100%;">=</button>
+            </div>
+            <div class="col-sm-4">
+              <button type="button" class="btn btn btn-success btn-lg opr" style="width: 100%;">/</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="app.js"></script>
+</html>
